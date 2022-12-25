@@ -13,7 +13,11 @@ The HockeyBot package allows a Franka robot to play air hockey. We use a RealSen
 
 ### Start-Up Sequence
 
-![preview](https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4)
+<!-- {% include elements/video.html id="SXJP4yIiKOU" %}  -->
+<video src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" controls="controls" style="max-width: 730px">
+</video>
+
+<!-- ![preview](https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4) -->
 
 * Upon launch, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
 to reach the home x- and y-coordinates with an offset in the z. It then reaches down to grasp the adapter on the paddle 
