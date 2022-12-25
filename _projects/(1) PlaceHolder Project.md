@@ -1,7 +1,11 @@
 ---
-name: PlaceHolder Project
-tools: [nothing, important]
+name: HockeyBot
+tools: [Python, ROS2, OpenCV, Embedded Systems]
 image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-external_url: https://www.google.com
+description: ROS2 package allowing a Franka Emika arm to play air hockey.
+# external_url: https://www.google.com
 ---
+
+Lorem ipsum blahbkfsd. 
+
+SKDFHkjshddsf.
