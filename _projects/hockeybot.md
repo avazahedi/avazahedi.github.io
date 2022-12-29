@@ -17,12 +17,12 @@ The HockeyBot package allows a Franka robot to play air hockey. We use a RealSen
 
 <!-- {% include elements/video.html id="SXJP4yIiKOU" %}  -->
 
-<center><video src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" controls="controls" style="max-width: 730px">
-</video></center>
+<!-- <center><video src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" controls="controls" style="max-width: 730px">
+</video></center> -->
 
-<!-- <center><video width="320" height="240" controls>
+<center><video width="540" height="960" controls>
   <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4">
-</video></center>  -->
+</video></center> 
 
 <!-- https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4 -->
 
