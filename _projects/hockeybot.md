@@ -6,6 +6,7 @@ description: ROS2 package allowing a Franka Emika arm to play air hockey.
 ---
 
 # HockeyBot
+<br>
 
 ### **Description**
 The HockeyBot package allows a Franka robot to play air hockey. We use a RealSense camera and computer vision to detect where the puck is on the air hockey table. Our TrajCalc node predicts the trajectory of the puck and sends those positions to our SimpleMove API, which tells the Franka to move to meet the puck. All of these tasks are integrated in our Main node, which completes our workflow and allows the robot to play repeatedly.
