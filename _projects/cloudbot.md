@@ -45,6 +45,7 @@ The CloudBot is composed of three parts: the helium-filled weather balloon (top)
 * 2 layers of ripstop nylon casing, sewed in a custom pattern
   * Fixes the maximum volume of the air cell so that it can hold pressure when compressing air into it
 
+<br>
 
 ### Our Results
 We had successful tests in both calm, indoor conditions as well as in moderately windy outdoor conditions. In both, we demonstrated the operating principle of variable buoyancy, though in the outdoor tests it was more difficult to control movement due to wind. We were also able to collect live measurements during the test flights and transmit them to ground control. All in all, we accomplished the task we set out to do in September 2021, and as a team we are very pleased with the final results we reached in May 2022.

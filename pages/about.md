@@ -8,13 +8,15 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am a graduate student at Northwestern University pursuing my MS in Robotics from September 2022 to December 2023.
+I recently graduated from the University of Connecticut with a BSE in Mechanical Engineering.
+My interests include industrial robotics, medical robotics, and artificial intelligence.
 
-<div class="row">
+<!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">
 {% include about/timeline.html %}
-</div>
+</div> -->

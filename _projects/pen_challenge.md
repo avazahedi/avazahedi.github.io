@@ -13,12 +13,23 @@ One particularly fun project was programming the PincherX 100 desktop robot arm 
 
 <br>
 <center><video width="270" height="480" controls>
-  <source src="https://www.youtube.com/shorts/ePDHq-Qqdfw">
+  <source src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-video-1.mp4">
 </video></center> 
 <br>
 
 
+<!-- <p float="left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="48%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot2.png" width="48%" /> 
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/cloudbot_poster.jpg" width="32%" /> -->
+</p> -->
+
+<p align="middle">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="48%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot2.png" width="48%" /> 
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/cloudbot_poster.jpg" width="32%" /> -->
+</p>
 
 <!-- <center><iframe width="1193" height="671" src="https://www.youtube.com/embed/ePDHq-Qqdfw" title="Hackathon Pen Challenge 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
 
-<a href="https://github.com/avazahedi/pen-challenge">GitHub repository</a>
+<a href="https://github.com/avazahedi/pen-challenge">Pen Challenge GitHub Repository</a>
