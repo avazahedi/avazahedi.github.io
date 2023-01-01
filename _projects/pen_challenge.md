@@ -17,6 +17,6 @@ One particularly fun project was programming the PincherX 100 desktop robot arm 
 </video></center> 
 <br>
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="270" /> | <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot-2.png" width="270" /> 
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="270" /> | <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot-2.png" width="270" /></center>
 
 <a href="https://github.com/avazahedi/pen-challenge">Pen Challenge GitHub Repository</a>

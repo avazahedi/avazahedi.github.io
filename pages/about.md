@@ -7,7 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
+<br>
+Hi, I am **{{ site.author.name }}** :wave:
 <br>
 
 I am a graduate student at Northwestern University pursuing my MS in Robotics from September 2022 to December 2023.  
