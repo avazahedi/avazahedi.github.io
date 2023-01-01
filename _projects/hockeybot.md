@@ -77,3 +77,6 @@ given its trajectory, the robot will block instead.
 * As the robot is moving to hit the puck, it also plans a path from where it hits the puck back to the home position. 
 Once the robot detects that its end-effector has reached the goal, it begins executing the path back home. This process 
 also resets all internal variables and restarts the loop so that the robot can continue playing.
+
+<br>
+<a href="https://github.com/avazahedi/HockeyBot">HockeyBot GitHub Repository</a>

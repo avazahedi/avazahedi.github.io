@@ -1,7 +1,7 @@
 ---
 name: Pen Challenge
 tools: [Python, OpenCV, ROS2]
-image:
+image: https://avazahedi.github.io/assets/hackathon-pen-challenge-snapshot.png
 description: Using computer vision to grasp a pen.
 ---
 
@@ -18,18 +18,10 @@ One particularly fun project was programming the PincherX 100 desktop robot arm 
 <br>
 
 
-<!-- <p float="left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="48%" />
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot2.png" width="48%" /> 
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/cloudbot_poster.jpg" width="32%" /> -->
-</p> -->
-
-<p align="middle">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="48%" />
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot2.png" width="48%" /> 
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/cloudbot_poster.jpg" width="32%" /> -->
+<!-- <p align="middle"> -->
+<p float="left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot.png" width="20%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/hackathon-pen-challenge-snapshot2.png" width="20%" /> 
 </p>
-
-<!-- <center><iframe width="1193" height="671" src="https://www.youtube.com/embed/ePDHq-Qqdfw" title="Hackathon Pen Challenge 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
 
 <a href="https://github.com/avazahedi/pen-challenge">Pen Challenge GitHub Repository</a>
