@@ -11,6 +11,10 @@ weight: 3
 Hi, I am **{{ site.author.name }}** :wave:
 <br>
 
+<br>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.jpg" width=420/></center>
+<br>
+
 I am a graduate student at Northwestern University pursuing my MS in Robotics from September 2022 to December 2023.  
 I recently graduated from the University of Connecticut with a BSE in Mechanical Engineering.  
 My interests include industrial robotics, medical robotics, and artificial intelligence.
