@@ -25,7 +25,9 @@ https://user-images.githubusercontent.com/39091881/226089569-d1528114-414c-4960-
 ### **How It Works**
 
 Project Flowchart
-![winter_project_flowchart](https://user-images.githubusercontent.com/39091881/226089417-5451d944-19fc-47ed-874e-a4efe302f3ab.jpg)
+<br>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/go1_flowchart.jpg"/></center>
+<br>
 
 
 
@@ -39,35 +41,20 @@ I forked a repository from GitHub user Kinivi that includes a program and Tensor
 <br>
 
 MediaPipe Hand Landmarks
-![hand_landmarks](https://user-images.githubusercontent.com/39091881/226089461-c09e8dd3-7f8d-403a-9681-d0e1ed750ad6.png)
-
+<br>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/hand_landmarks.png"/></center>
 <br>
 
 #### Commanding the Go1
 <br>
 
-
-
-<br>
 In another node, I receive the hand gesture labels and use them to send out a variety of commands to the Go1, employing the unitree_ros2 and unitree_nav packages mentioned in the prerequisites section.  
 The following video shows some movements that come pre-programmed and can be controlled via the provided remote control.  
 
-<center><video width="270" height="480" controls>
+<!-- <center><video width="270" height="480" controls> -->
+<center><video>
   <source src="https://user-images.githubusercontent.com/39091881/226089749-09f4dedc-a96d-4bd7-ac2e-195d2e96af29.mp4">
 </video></center> 
-
-<br>
-<br>
-
-#### Putting It All Together
-<br>
-
-<!-- <center><video width="270" height="480" controls>
-  <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4">
-</video></center>  -->
-
-<center>
-</center>
 
 <br>
 <br>
@@ -75,6 +62,9 @@ The following video shows some movements that come pre-programmed and can be con
 #### More About the Unitree Go1
 The Unitree Go1 is a quadruped robot advertised for its high dynamics, intelligence, and companionship abilities.  
 
+<br>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/go1_dancing.gif"/></center>
+<br>
 
 <br>
 
