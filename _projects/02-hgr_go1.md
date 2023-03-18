@@ -12,8 +12,12 @@ description: Controlling the Unitree Go1 quadruped robot via hand gestures.
 In this project, I developed software for using hand gestures to send motion commands to the Unitree Go1 robot dog.  
 The go1-gesture-command repository consists of two ROS2 packages, one Python and one C++. 
 
-https://user-images.githubusercontent.com/39091881/226089569-d1528114-414c-4960-8ec3-f1f7acc11ab2.mp4
+<center><video width="480" height="270" controls>
+  <source src="https://user-images.githubusercontent.com/39091881/226089569-d1528114-414c-4960-8ec3-f1f7acc11ab2.mp4">
+</video></center> 
 
+<br>
+<br>
 
 ### **Packages**
 * The ros2_hgr package includes nodes for hand gesture recognition and sending commands to the Unitree Go1 robot dog.
@@ -30,11 +34,12 @@ Project Flowchart
 <br>
 
 
-
 #### Hand Gesture Recognition
 <br>
 
-https://user-images.githubusercontent.com/39091881/226089470-37c993d5-ed02-45c1-83af-3d6137bb76a5.mp4
+<center><video width="480" height="270" controls>
+  <source src="https://user-images.githubusercontent.com/39091881/226089470-37c993d5-ed02-45c1-83af-3d6137bb76a5.mp4">
+</video></center> 
 
 <br>
 I forked a repository from GitHub user Kinivi that includes a program and TensorFlow model for using MediaPipe to detect and label hand gestures. In my ros2_hgr package, I transformed their code into a ROS2 Python package that can publish data through a node. I also added new gestures and retrained the model with new data.
@@ -51,8 +56,7 @@ MediaPipe Hand Landmarks
 In another node, I receive the hand gesture labels and use them to send out a variety of commands to the Go1, employing the unitree_ros2 and unitree_nav packages mentioned in the prerequisites section.  
 The following video shows some movements that come pre-programmed and can be controlled via the provided remote control.  
 
-<!-- <center><video width="270" height="480" controls> -->
-<center><video>
+<center><video width="480" height="270" controls>
   <source src="https://user-images.githubusercontent.com/39091881/226089749-09f4dedc-a96d-4bd7-ac2e-195d2e96af29.mp4">
 </video></center> 
 
