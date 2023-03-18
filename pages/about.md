@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 <br>
-Hi, I am **{{ site.author.name }}** :wave:
+Hi, I'm **{{ site.author.name }}** :wave:
 <br>
 
 <br>
@@ -17,7 +17,7 @@ Hi, I am **{{ site.author.name }}** :wave:
 
 I am a graduate student at Northwestern University pursuing my MS in Robotics as part of the 2022-23 cohort.  
 I recently graduated from the University of Connecticut with a BSE in Mechanical Engineering.  
-My interests include industrial robotics, medical robotics, and artificial intelligence.
+My interests include medical robotics, industrial robotics, and artificial intelligence.
 
 <br>
 Given the flexibility of my program, I am currently open to either summer 2023 internship positions for a December 2023 graduation or full time positions for a September 2023 graduation. Please feel free to reach out regarding opportunities--or just to talk about robotics!--via one of the media at the bottom of the page.
