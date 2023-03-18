@@ -6,7 +6,6 @@ description: Controlling the Unitree Go1 quadruped robot via hand gestures.
 ---
 
 # Gesture-Based Quadruped Control
-<br>
 
 ## **Description**
 In this project, I developed software for using hand gestures to send motion commands to the Unitree Go1 robot dog.  
@@ -17,13 +16,12 @@ The go1-gesture-command repository consists of two ROS2 packages, one Python and
 </video></center> 
 
 <br>
-<br>
 
 ## **Packages**
-* The ros2_hgr package includes nodes for hand gesture recognition and sending commands to the Unitree Go1 robot dog.
+* The ros2_hgr package includes nodes for hand gesture recognition and sending commands to the Unitree Go1 robot dog.  
+
 * The go1_cmd packages includes a node for receiving gesture data and converting them to movement commands for the Go1.
 
-<br>
 <br>
 
 ## **How It Works**
@@ -43,14 +41,16 @@ The go1-gesture-command repository consists of two ROS2 packages, one Python and
 <br>
 
 #### Gestures Guide
-0. Open - stop
-1. Close - look forward (normal 0&deg; yaw)
-2. Pointer - recover stand up
-3. OK - look up
-4. Peace - look down
-5. Thumbs Up - walk forward
-6. Thumbs Down - walk backward
-7. Quiet Coyote - lay down
+<ol start="0">
+  <li>Open - stop</li>
+  <li>Close - look forward (normal 0&deg; yaw)</li>
+  <li>Pointer - recover stand up</li>
+  <li>OK - look up</li>
+  <li>Peace - look down</li>
+  <li>Thumbs Up - walk forward</li>
+  <li>Thumbs Down - walk backward</li>
+  <li>Quiet Coyote - lay down</li>
+</ol>
 
 <br>
 I forked a repository from GitHub user Kinivi that includes a program and TensorFlow model for using MediaPipe to detect and label hand gestures. In my ros2_hgr package, I transformed their code into a ROS2 Python package that can publish data through a node. I also added new gestures (gestures 4-7) and retrained the model with new data for both the existing gestures and the new ones.  
