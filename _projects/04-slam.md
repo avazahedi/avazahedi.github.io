@@ -8,7 +8,7 @@ description: Simulation, control, and EKF SLAM packages for the TurtleBot3 using
 # TurtleBot3 Simulation, Control, and SLAM
 
 ## Description
-This project was done throughout the winter quarter and includes 4 packages for NU TurtleBot visualization, simulation, control, and SLAM.  
+This project was done throughout the winter quarter and includes 4 packages and a library for NU TurtleBot visualization, simulation, control, and SLAM.  
 
 <br>
 
