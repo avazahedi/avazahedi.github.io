@@ -7,7 +7,7 @@ description: Simulation, control, and EKF SLAM packages for the TurtleBot3 using
 
 # TurtleBot3 Simulation, Control, and SLAM
 
-## **Description**
+## Description
 This project was done throughout the winter quarter and includes 4 packages for NU TurtleBot visualization, simulation, control, and SLAM.  
 
 <br>
@@ -38,7 +38,7 @@ Moving around obstacles and using SLAM to correct the position estimate of the T
 
 <br>
 
-## **Packages**
+## Packages
 * nuturtle_description
     * This package contains urdf files and basic debugging, testing, and visualization code for the WI2023 ME 495 robots.
 * nusim
@@ -47,6 +47,14 @@ Moving around obstacles and using SLAM to correct the position estimate of the T
     * This package enables control of the turtlebot via messages on the cmd_vel topic.
 * nuslam
     * This package allows the turtlebot to perform SLAM with an Extended Kalman Filter implementation.
+
+<br>
+
+* turtlelib - A library for handling transformations in SE(2) and other turtlebot-related math.
+  * rigid2d - vectors, twists, and transformations in 2D
+  * diff_drive - kinematics for a differential drive robot in 2D
+  * kalman - Extended Kalman Filter implementation with data association
+  * circle_fit - circle fitting algorithm given a cluster of points
 
 <br>
 
