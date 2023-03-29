@@ -13,7 +13,7 @@ One particularly fun project was programming the PincherX 100 desktop robot arm 
 
 <br>
 <center><video width="270" height="480" controls>
-  <source src="">
+  <source src="https://user-images.githubusercontent.com/39091881/228619491-d0df5753-fa27-4b42-bc8e-20f99c80300d.mp4">
 </video></center>
 <br>
 
