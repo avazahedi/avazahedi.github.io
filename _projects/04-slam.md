@@ -2,7 +2,7 @@
 name: TurtleBot3 Simulation, Control, and SLAM
 tools: [ROS2, C++, Simulation, SLAM]
 image: https://avazahedi.github.io/assets/slam.gif
-description: Simulation, control, and EKF SLAM packages for the TurtleBot3 using ROS2 in C++..
+description: Simulation, control, and EKF SLAM packages for the TurtleBot3 using ROS2 in C++.
 ---
 
 # TurtleBot3 Simulation, Control, and SLAM
