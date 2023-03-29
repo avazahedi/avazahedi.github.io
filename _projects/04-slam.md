@@ -16,7 +16,7 @@ This project was done throughout the winter quarter and includes 4 packages for 
 
 Teleoperating the TurtleBot via cmd_vel messages. In this demo, the TurtleBot is commanded to move in a circle.  
 
-<center><video width="1280" height="720" controls>
+<center><video width="960" height="540" controls>
   <source src="https://user-images.githubusercontent.com/39091881/228632617-749a7fd4-b361-4821-a335-1c61dcb1b71d.mp4">
 </video></center> 
 
@@ -26,7 +26,7 @@ Teleoperating the TurtleBot via cmd_vel messages. In this demo, the TurtleBot is
 
 Moving around obstacles and using SLAM to correct the position estimate of the TurtleBot.  
 
-<center><video width="1280" height="720" controls>
+<center><video width="960" height="540" controls>
   <source src="https://user-images.githubusercontent.com/39091881/228632783-821439fa-0247-4cff-8bf6-4dd80112a653.webm">
 </video></center> 
 
