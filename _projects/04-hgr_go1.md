@@ -11,9 +11,13 @@ description: Controlling the Unitree Go1 quadruped robot via hand gestures.
 In this project, I developed software that uses hand gestures to send motion commands to the Unitree Go1 robot dog.  
 The go1-gesture-command repository consists of two ROS2 packages, one Python and one C++. 
 
-<center><video width="845" height="270" controls>
+<!-- <center><video width="845" height="270" controls>
   <source src="https://user-images.githubusercontent.com/39091881/226089569-d1528114-414c-4960-8ec3-f1f7acc11ab2.mp4">
-</video></center> 
+</video></center>  -->
+
+<div style="position: relative; padding-bottom: 31.95%; height:0; overflow: hidden;">
+    <center><video src="https://user-images.githubusercontent.com/39091881/226089569-d1528114-414c-4960-8ec3-f1f7acc11ab2.mp4" controls style="position: absolute; top:0; left:0; width: 100%; height: 100%;"></video></center>
+</div>
 
 <br>
 
@@ -34,9 +38,13 @@ The go1-gesture-command repository consists of two ROS2 packages, one Python and
 
 ### Hand Gesture Recognition
 
-<center><video width="400" height="400" controls>
+<!-- <center><video width="400" height="400" controls>
   <source src="https://user-images.githubusercontent.com/39091881/226089470-37c993d5-ed02-45c1-83af-3d6137bb76a5.mp4">
-</video></center> 
+</video></center>  -->
+
+<div style="position: relative; padding-bottom: 100%; height:0; overflow: hidden;">
+    <center><video src="https://user-images.githubusercontent.com/39091881/226089470-37c993d5-ed02-45c1-83af-3d6137bb76a5.mp4" controls style="position: absolute; top:0; left:0; width: 100%; height: 100%;"></video></center>
+</div>
 
 <br>
 
@@ -72,9 +80,13 @@ Here, MediaPipe works by detecting 21 points throughout a hand. The model I use 
 In another node, I receive the hand gesture labels and use them to send out a variety of commands to the Go1, employing the unitree_ros2 and unitree_nav packages mentioned in the prerequisites section.  
 The following video shows some movements that come pre-programmed and can be controlled via the provided remote control.  
 
-<center><video width="480" height="270" controls>
+<!-- <center><video width="480" height="270" controls>
   <source src="https://user-images.githubusercontent.com/39091881/226089749-09f4dedc-a96d-4bd7-ac2e-195d2e96af29.mp4">
-</video></center> 
+</video></center>  -->
+
+<div style="position: relative; padding-bottom: 56.25%; height:0; overflow: hidden;">
+    <center><video src="https://user-images.githubusercontent.com/39091881/226089749-09f4dedc-a96d-4bd7-ac2e-195d2e96af29.mp4" controls style="position: absolute; top:0; left:0; width: 100%; height: 100%;"></video></center>
+</div>
 
 <br>
 <br>

@@ -57,11 +57,9 @@ Note: jaco_base is an argallab repository and not currently publicly available. 
     * Use a USB 3.2 or better cable for best results
 * 7-DOF Kinova Jaco Gen2 arm - j2s7s300 (only required for hardware demo)
 
-<br>
-
 ## WorkFlow
 
-<center><img src="{{ site.url }}{{ site.baseurl }}/assets/Final_Project_Workflow.png"/></center>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/Final_Project_Workflow.png" width="50%" height="50%" alt="Workflow diagram"/></center>
 <br>
 
 The object_detection node uses YOLOv8 with the built-in, pre-trained model to detect common objects such as bottles, cups, bowls, and others. A bounding box is generated around the detected objects, and if an object matches the user's desired object, information is sent to the grasp_detection node.  
@@ -75,6 +73,9 @@ The `generate-collision-object` branch in the deep_grasp_demo and jaco_deep_gras
 The main issue I was running into was integrating this newly-generated object to be sent as a goal to MoveIt using the existing architecture of deep grasps.  
 
 Additionally, work remains to be done for dynamic grip widths for different objects. Unlike the Franka Panda arm, the Kinova Jaco arm I used did not have force sensors in the fingers, meaning open and close poses for the gripper were based purely on joint positions. For objects of different sizes, this proved challenging because the close pose would have to be tight enough to grasp the object, but not so tight that the controller could never reach the specified joint positions because of the object's size (this would cause the trajectory execution to abort).
+
+## Acknowledgements
+I'd like to give a huge thanks to my MSR advisors Dr. Matt Elwin and Dr. Todd Murphey, as well as Dr. Brenna Argall for welcoming me into her lab. Also, an immense gratitute to Andrew Thompson, a doctoral candidate in argallab who was extremely helpful in guiding and assisting me throughout this project.  
 
 <br>
 <a href="https://github.com/avazahedi/jaco_deep_grasp">jaco_deep_grasp GitHub Repository</a>
