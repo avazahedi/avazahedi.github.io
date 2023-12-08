@@ -8,7 +8,7 @@ description: Controlling the Unitree Go1 quadruped robot via hand gestures.
 # Gesture-Based Quadruped Control
 
 ## **Description**
-In this project, I developed software for using hand gestures to send motion commands to the Unitree Go1 robot dog.  
+In this project, I developed software that uses hand gestures to send motion commands to the Unitree Go1 robot dog.  
 The go1-gesture-command repository consists of two ROS2 packages, one Python and one C++. 
 
 <center><video width="845" height="270" controls>
@@ -20,7 +20,7 @@ The go1-gesture-command repository consists of two ROS2 packages, one Python and
 ## **Packages**
 * The ros2_hgr package includes nodes for hand gesture recognition and sending commands to the Unitree Go1 robot dog.  
 
-* The go1_cmd packages includes a node for receiving gesture data and converting them to movement commands for the Go1.
+* The go1_cmd package includes a node for receiving gesture data and converting them to movement commands for the Go1.
 
 <br>
 
@@ -58,6 +58,9 @@ I forked a repository from GitHub user Kinivi that includes a program and Tensor
 <br>
 
 #### MediaPipe Hand Landmarks
+
+Here, MediaPipe works by detecting 21 points throughout a hand. The model I use in this project identifies the locations of each of these points and, based on their overall configuration, labels the gesture. 
+
 <br>
 <br>
 <center><img src="{{ site.url }}{{ site.baseurl }}/assets/hand_landmarks.png"/></center>
