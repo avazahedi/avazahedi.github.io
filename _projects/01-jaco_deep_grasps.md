@@ -57,9 +57,9 @@ Note: jaco_base is an argallab repository and not currently publicly available. 
     * Use a USB 3.2 or better cable for best results
 * 7-DOF Kinova Jaco Gen2 arm - j2s7s300 (only required for hardware demo)
 
-## WorkFlow
+## Workflow
 
-<center><img src="{{ site.url }}{{ site.baseurl }}/assets/Final_Project_Workflow.png" width="50%" height="50%" alt="Workflow diagram"/></center>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/Final_Project_Workflow.png" width="75%" height="75%" alt="Workflow diagram"/></center>
 <br>
 
 The object_detection node uses YOLOv8 with the built-in, pre-trained model to detect common objects such as bottles, cups, bowls, and others. A bounding box is generated around the detected objects, and if an object matches the user's desired object, information is sent to the grasp_detection node.  
