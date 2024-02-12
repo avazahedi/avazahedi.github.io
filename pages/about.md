@@ -12,12 +12,13 @@ Hi, I'm **{{ site.author.name }}** :wave:
 <br>
 
 <br>
-<center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.jpg" width=420/></center>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.JPEG" width=380/></center>
 <br>
 
-I am a graduate student at Northwestern University pursuing my MS in Robotics as part of the 2022-23 cohort.  
-I recently graduated from the University of Connecticut with a BSE in Mechanical Engineering.  
-My interests include medical robotics, industrial robotics, and artificial intelligence.  
+I graduated from Northwestern University with a MS in Robotics as part of the 2022-23 cohort.  
+In 2022, I graduated from the University of Connecticut with a BSE in Mechanical Engineering.  
+I'm excited about tackling complex robotics problems and using robotics in a range of applications 
+to help improve safety and quality of life on all scales.
 
 In my free time, I enjoy playing piano and saxophone.
 
