@@ -64,9 +64,29 @@ Note: jaco_base is an argallab repository and not currently publicly available. 
 
 The object_detection node uses YOLOv8 with the built-in, pre-trained model to detect common objects such as bottles, cups, bowls, and others. A bounding box is generated around the detected objects, and if an object matches the user's desired object, information is sent to the grasp_detection node.  
 
-In the grasp_detection node, point cloud data is received and segmented based on the bounding box coordinates from YOLO. Other filters are applied to remove outliers and refine the segmented point cloud that is then passed into GPD for generating grasp poses.  
+In the grasp_detection node, point cloud data is received and segmented based on the bounding box coordinates from YOLO. Other filters are applied to remove outliers and refine the segmented point cloud that is then passed into the Grasp Pose Detection (GPD) neural network for generating grasp poses.  
 
 After grasp candidates are generated, if any are viable the deep_grasp_task node generates a plan to move to pick and place the object. If the plan is succesful, the trajectory is executed. If the plan is unsuccessful, it will retry up to 5 times before asking the user to restart.  
+
+## Computer Vision and Object Detection
+With the RealSense camera, I collected RGB images, point cloud data, and depth images. 
+
+The RGB image feed is used with YOLOv8 object detection, which provides semantic labeling for the objects it sees as well as creating corresponding bounding boxes. From these, the object of interest can be isolated by name and its coordinates extracted from the bounding box. Using a deprojection function along with the corresponding depth image, coordinates in the RGB image are converted into 3D points in cartesian space, matching our data format for the point clouds. Here is an example of detecting a bottle:  
+
+<br>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/yolo_object_detection.jpg"/></center>
+<br>
+
+The point clouds allowed for capturing the geometry of the object to grasp, and a filtered version is passed into GPD for generating grasps. To filter the point cloud, I use a passthrough filter followed by radius outlier removal and a voxel grid filter. Below are the results of the point cloud filtering:  
+
+<br>
+<p align="middle">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.jpg" width="50%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.jpg" width="50%"/>
+</p>
+<br>
+
 
 ## Unfinished Work and Next Steps
 The `generate-collision-object` branch in the deep_grasp_demo and jaco_deep_grasp repositories contain unfinished work towards dynamically generating a collision object based on information from YOLO. This would enable the user to place the object anywhere in the workspace and have MoveIt plan to an object location without having to predefine it in the kinova_object.yaml file that gets loaded into the ROS parameter server. Functionality for placing the object anywhere is already in place for point cloud segmentation and YOLO object detection.  
