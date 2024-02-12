@@ -81,9 +81,9 @@ The point clouds allowed for capturing the geometry of the object to grasp, and 
 
 <br>
 <p align="middle">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.png" width="35%"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.png" width="80%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.png" width="35%"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.png" width="80%"/>
 </p>
 <br>
 
