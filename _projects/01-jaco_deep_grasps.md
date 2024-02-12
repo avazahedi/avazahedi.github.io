@@ -74,16 +74,16 @@ With the RealSense camera, I collected RGB images, point cloud data, and depth i
 The RGB image feed is used with YOLOv8 object detection, which provides semantic labeling for the objects it sees as well as creating corresponding bounding boxes. From these, the object of interest can be isolated by name and its coordinates extracted from the bounding box. Using a deprojection function along with the corresponding depth image, coordinates in the RGB image are converted into 3D points in cartesian space, matching our data format for the point clouds. Here is an example of detecting a bottle:  
 
 <br>
-<center><img src="{{ site.url }}{{ site.baseurl }}/assets/yolo_object_detection.jpg"/></center>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/yolo_object_detection.png"/></center>
 <br>
 
 The point clouds allowed for capturing the geometry of the object to grasp, and a filtered version is passed into GPD for generating grasps. To filter the point cloud, I use a passthrough filter followed by radius outlier removal and a voxel grid filter. Below are the results of the point cloud filtering:  
 
 <br>
 <p align="middle">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.jpg" width="50%"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.png" width="35%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.jpg" width="50%"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.png" width="35%"/>
 </p>
 <br>
 
