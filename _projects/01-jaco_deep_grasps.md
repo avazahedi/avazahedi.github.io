@@ -79,9 +79,9 @@ The RGB image feed is used with YOLOv8 object detection, which provides semantic
 The point clouds allowed for capturing the geometry of the object to grasp, and a filtered version is passed into GPD for generating grasps. To filter the point cloud, I use a passthrough filter followed by radius outlier removal and a voxel grid filter. Below are the results of the point cloud filtering:  
 
 <p align="middle">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.png" width="80%"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.png" width="80%"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_before_segmentation.png" width="50%"/>
+  &nbsp;&nbsp;
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/jaco_after_segmentation.png" width="50%"/>
 </p>
 <br>
 
